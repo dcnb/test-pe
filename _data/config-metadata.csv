@@ -3,11 +3,12 @@ title,Title,
 creator,Creator,
 date,Date Created,
 description,Description,
+course,Course,true
 subject,Subjects,true
 location,Location
 latitude,Latitude
 longitude,Longitude
-source,Source
+source,Source,,true
 identifier,Source Identifier,,
 type,Type,
 format,Format,
