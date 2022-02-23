@@ -7,20 +7,18 @@ custom-foot: js/home-js.html
   <div class="col-md-8">
 
     {% include index/description.html %}
+    {% include index/featured-terms.html field="subject" title="Subjects" btn-color="outline-info" max=8 %}
 
-    {% include index/carousel.html title="Sample Items" height=450 %}
-  
+    {% include index/featured-terms.html field="creator" title="Authors" btn-color="success" max=15 %}
   </div>
   <div class="col-md-4">
 
     {% include index/time.html %}
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="outline-info" max=8 %}
+    {% include index/featured-terms.html field="course" title="Courses" btn-color="outline-info" max=8 %}
 
-    {% include index/featured-terms.html field="creator" title="Creators" btn-color="success" max=8 %}
-
-    {% include index/objects.html %}
-
+    {% include index/featured-terms.html field="instructor" title="Instructors" btn-color="outline-info" max=8 %}
   </div>
+ 
   
 </div>

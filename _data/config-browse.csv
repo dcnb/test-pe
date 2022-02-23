@@ -3,3 +3,5 @@ date,Date,,,Date
 creator,Creator,,,
 subject,,true
 course,,true
+instructor,,true
+
