@@ -20,3 +20,9 @@ if (sessionStorage.getItem("cb_items_store")) {
     complete: (results) => cb_items_init(results)
   });
 }
+
+
+function reset_cb_items(){
+  sessionStorage.removeItem('cb_items_store');
+  location.reload(); 
+};
