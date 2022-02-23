@@ -1,7 +1,8 @@
 field,index,display
 title,true,true
 date,true,true
-creator,true,false
-description,true,true
+creator,true,tru
+description,true,false
 subject,true,true
-location,true,false
+instructor,true,true
+course,true,true

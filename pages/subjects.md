@@ -1,5 +1,5 @@
 ---
-title: Subjects
+title: Subjects and Authors
 layout: cloud
 permalink: /subjects.html
 # Default subject page is configured in "_data/theme.yml"
@@ -8,7 +8,7 @@ permalink: /subjects.html
 cloud-fields: site.data.theme.subjects-fields
 ---
 
-## Browse Subjects
+## Browse Subjects and Authors
 
 Use this word cloud visualization to browse terms and subjects.
 Word size is determined by frequency and all words link to a corresponding collection search.
